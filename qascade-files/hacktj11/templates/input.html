@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %}Choose Protein Cascade | Quantum Quties{% endblock %}
+{% block content %}
+<div class="glass mx-auto" style="max-width: 600px;">
+    <h2 class="mb-4 text-center" style="font-weight:600;">Welcome</h2>
+    <form action="/form_content" method="POST">
+        <div class="mb-4">
+            <label for="protein_cascade" class="form-label" style="font-size: 1.25rem;">Choose protein cascade</label>
+            <select id="protein_cascade" name="protein_cascade" class="form-select form-select-lg text-center" style="font-size:1.2rem;">
+                <option value="Option 1">Caspase-8 pathway in the thymus</option>
+                <option value="Option 2">Apoptosis in RAT-2 rat fibroblasts</option>
+                <option value="Option 3">Fas signaling pathway</option>
+                <option value="Option 4">Protein Cascade 4</option>
+            </select>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-success btn-lg px-5 py-2" style="font-size:1.2rem;">Submit</button>
+        </div>
+    </form>
+</div>
+{% endblock %}
