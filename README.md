@@ -1,4 +1,4 @@
-# Quantum Apoptosis Explorer
+# Qascade
 
 A modern interactive web app for exploring cell signaling pathways and their quantum-optimized analytics.
 
