@@ -2,6 +2,9 @@
 
 A modern interactive web app for exploring cell signaling pathways and their quantum-optimized analytics.
 
+<img width="904" height="640" alt="Screenshot 2025-08-15 at 1 43 21 PM" src="https://github.com/user-attachments/assets/2fe30ae0-0465-44e4-a9a9-7c05a5f666e2" />
+<img width="889" height="636" alt="Screenshot 2025-08-15 at 1 43 32 PM" src="https://github.com/user-attachments/assets/926ae2ab-56f8-4ec3-8196-7725c03f9f4c" />
+
 🔍 How It Works
 1. Graph Generation from Protein Cascades
 The user selects a synthetic signaling network which is represented as a directed graph.
